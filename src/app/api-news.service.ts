@@ -15,6 +15,7 @@ export class ApiNewsService {
     return this.httpClient.get<Config>(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${this.API_KEY}`);
   }
 }
+
 export interface Config {
   heroesUrl: string;
   textfile: string;
