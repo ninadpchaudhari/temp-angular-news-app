@@ -16,4 +16,6 @@ export class NewsComponent implements OnInit {
     })
   }
 
+  //Some other function here..
+
 }
